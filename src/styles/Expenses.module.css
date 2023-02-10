@@ -1,0 +1,64 @@
+.expenseContainer{
+    margin: 3em 0;
+}
+.titel{
+    margin-top: 25px ;
+    margin-bottom: 10px;
+}
+.search{
+    border: 1px solid  #b5b4b5;
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.search:focus{
+    outline: none;
+}
+.box{
+    display: flex;
+    border: 1px solid  #b5b4b5;
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    border-bottom: none;
+}
+.box:last-child{
+    border-bottom: 1px solid  #b5b4b5;
+}
+.text{
+    font-weight:500;
+    font-size: 1.03rem;
+}
+.iconContainer{
+    display: flex;
+    align-items: center;
+}
+.money{
+    background-color: #0070fb;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 0.7rem;
+    font-weight: bold;
+    padding: 2px 8px;
+    margin-right: 15px;
+}
+.box i{
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: red;
+}
+
+@media screen and (max-width:500px){
+    .titel{
+       font-size: 1.2rem;
+    }
+    .text{
+        font-size: 0.85rem;
+    }
+    .search{
+        font-size: 0.75em;
+    }
+}

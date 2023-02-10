@@ -1,0 +1,64 @@
+.container{
+    margin: auto;
+    width: 70%;
+}
+.budgetContainer{
+    margin-top: 3.5em;
+}
+.titel{
+    margin: 1em 0;
+}
+.cardContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+  min-width: 300px;
+  min-height: 60px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 25px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.button{
+    color: #fff;
+    background-color: #0070fb;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.input{
+    border: none;
+    padding: 5px;
+}
+.input:focus{
+    outline: none;
+}
+
+@media screen and (max-width:1300px){
+    .cardContainer{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:500px){
+    .titel{
+       font-size: 1.3rem;
+    }
+    .card{
+        min-width: 250px;
+      }
+    .card span{
+        font-size: 0.85em;
+    }
+    .button{
+        font-size: 0.75em;
+    }
+    .container{
+        width: 85%;
+    }
+}
